@@ -144,7 +144,7 @@ function myAccount() {
 
     // slice();
     function pay() {
-        window.location.href = 'skrill.com';
+       href = 'skrill.com';
     }
 
 function del() {
