@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <p><strong>Class:</strong> ${booking.classes}</p>
       <p><strong>Amount to Pay:</strong> $${booking.amount}</p>
       <button class="btn btn-danger my-2" onclick="del()">Delete</button>
-      <button class="btn btn-success my-2" style="margin-left: 35%;" onclick="pay()">Pay To Bank</button>
+      <button class="btn btn-success my-2" style="margin-left: 35%;" onclick="pay()"><a href="https://open.opayweb.com/login?redirect=%2F">Pay To Ban</a></button>
       </div>    
        </div>`;
         bookingList.appendChild(bookingBlock);
@@ -143,9 +143,9 @@ function myAccount() {
 };
 
     // slice();
-    function pay() {
-       href = 'skrill.com';
-    }
+    // function pay() {
+    //    href = 'skrill.com';
+    // }
 
 function del() {
     // localStorage.removeItem('bookings');
