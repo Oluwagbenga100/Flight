@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <p><strong>Class:</strong> ${booking.classes}</p>
       <p><strong>Amount to Pay:</strong> $${booking.amount}</p>
       <button class="btn btn-danger my-2" onclick="del()">Delete</button>
-      <button class="btn btn-success my-2" style="margin-left: 35%;"><a href=url "https://https://666ab640-8d6a-491b-be32-e06642d051cf.mock.pstmn.io/connect/token" >Pay To Ban</a></button>
+      <button class="btn btn-success my-2" style="margin-left: 35%; text-decoration: none;"><a href=url "https://https://666ab640-8d6a-491b-be32-e06642d051cf.mock.pstmn.io/connect/token" >Pay To Ban</a></button>
       </div>    
        </div>`;
         bookingList.appendChild(bookingBlock);
